@@ -16,7 +16,7 @@ function isMin(x, y) {
     return `${x} is the smallest`
   else
     return `${y} is the smallest`
-
+}
 
   // Calculate the discount price on a sale
 function calc_Discount(price, discountPercentage) {
