@@ -1,3 +1,4 @@
+"use strict";
 let $Init_temp = prompt("Enter the magnitude of the temperature", "10");
 
 if ($Init_temp == null || "") {
