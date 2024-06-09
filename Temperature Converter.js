@@ -4,7 +4,7 @@ let $Init_temp = prompt("Enter the magnitude of the temperature", "10");
 if ($Init_temp == null || "") {
   window.alert("You haven't entered anything!")
 }
-else if ($Init_temp * 5 == NaN){
+else if (isNaN($Init_temp) == true){
   window.alert("Enter a number!!")
 }
   
