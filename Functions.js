@@ -22,3 +22,10 @@ function isMin(x, y) {
 function calc_Discount(price, discountPercentage) {
     return price - (price * discountPercentage / 100);
 }
+
+// Eligibility Checker
+function isMature(Age){
+  if (Age >= 18)
+    return true
+  else
+    return false
