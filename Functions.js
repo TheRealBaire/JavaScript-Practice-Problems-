@@ -29,3 +29,12 @@ function isMature(Age){
     return true
   else
     return false
+
+  // objects made easy
+function makeUser(name, age,//other properties) {
+  return {
+    name: name,
+    age: age,
+    // ...other properties
+  };
+}
