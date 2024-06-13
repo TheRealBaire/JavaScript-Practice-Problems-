@@ -38,3 +38,9 @@ function makeUser(name, age,//other properties) {
     // ...other properties
   };
 }
+
+
+// Sign up greetings
+function sign_wa(){
+  return "You're welcome to Shamal"
+}
