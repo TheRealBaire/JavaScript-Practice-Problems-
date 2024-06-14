@@ -5,7 +5,7 @@ The functions here would be imported and used  later on in other problems. */
 // Add up two arguments 
 function sumNum(a,b){
   if (isNaN(a) == false && isNaN(b)== false)
-    return a + b
+    return Number(a) + Number(b)
   else 
     return "Are you trying to concatenate strings?"
 }
