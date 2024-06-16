@@ -1,6 +1,17 @@
 /* This file is a compilation of practice problems solved using functions.
 Function Expression and Function Declaration are the practices employes in thus compilation. 
 The functions here would be imported and used  later on in other problems. */
+// Number manipulation (simple calculator) 
+function numMan(arga, argb, argc){
+  if (isNaN(arga)== false && isNaN(argc)== false){
+    if (argb == "+" || argb == "add" || argb == "addition" || argb== "sum" || argb == "plus")
+    return Number(arga) + Number(argc)
+      }
+  else
+    return "An Error Occurred!!"
+  //to be continued 
+}
+
 
 // Add up two arguments 
 function sumNum(a,b){
