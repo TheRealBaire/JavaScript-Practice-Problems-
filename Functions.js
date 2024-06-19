@@ -1,7 +1,9 @@
 /* This file is a compilation of practice problems solved using functions.
 Function Expression and Function Declaration are the practices employes in thus compilation. 
 The functions here would be imported and used  later on in other problems. */
-// Number manipulation (simple calculator) 
+
+
+// Number Adder 
 function numMan(arga, argb, argc){
   if (isNaN(arga)== false && isNaN(argc)== false){
     if (argb == "+" || argb == "add" || argb == "addition" || argb== "sum" || argb == "plus")
@@ -63,4 +65,13 @@ function makeUser(name, age,//other properties) {
 // Sign up greetings
 function sign_wa(){
   return "You're welcome to Shamal"
+}
+
+
+      //Check if a number is even or odd
+function isEven(number){
+  if (number % 2 == 0)
+    return true
+  else
+    return false
 }
