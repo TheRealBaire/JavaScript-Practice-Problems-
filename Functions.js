@@ -2,6 +2,20 @@
 Function Expression and Function Declaration are the practices employes in thus compilation. 
 The functions here would be imported and used  later on in other problems. */
 
+// vowel counter
+function countVowels(str) {
+  let count = 0;
+  str = str.toLowerCase();
+
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u') {
+      count++;
+    }
+  }
+
+  return count;
+}
+
 
 // Number Adder 
 function numMan(arga, argb, argc){
