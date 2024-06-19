@@ -2,6 +2,15 @@
 Function Expression and Function Declaration are the practices employes in thus compilation. 
 The functions here would be imported and used  later on in other problems. */
 
+// Check if a year is a leap year or not
+function isLeap(year){
+  if (year % 4 == 0 && year % 100 !=0)
+    return true
+  else 
+    return false
+}
+
+
 // vowel counter
 function countVowels(str) {
   let count = 0;
