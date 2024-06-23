@@ -1,6 +1,6 @@
-/*
+/************
 Robaire Thias
-*/
+*************/
 function ageCalc(year, current){
   if ( year >= Number(current) || year <= 1824){
     return "Erroneous"
